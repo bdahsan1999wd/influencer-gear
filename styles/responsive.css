@@ -1,0 +1,36 @@
+/* ------------------------------Responsive Media Query Added------------------------------ */
+
+/* --------------------Mobile/Small Device Responsive Added-------------------- */
+@media only screen and (max-width: 576px) {
+  /* -----Navbar Mobile Responsive Added----- */
+  nav {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .nav-container {
+    margin: 0px 15px;
+  }
+  .fa-bars {
+    display: block;
+    cursor: pointer;
+    color: rgb(58, 58, 58);
+  }
+  .nav-item {
+    display: none;
+  }
+}
+
+/* --------------------Tablet/Medium Device Responsive Added-------------------- */
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  /* -----Navbar Tablet/Medium Responsive Added----- */
+  .nav-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .nav-logo h3 {
+    font-size: 2rem;
+  }
+  .nav-links {
+    gap: 60px;
+  }
+}
