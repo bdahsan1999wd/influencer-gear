@@ -23,6 +23,7 @@ body {
 }
 /* -------------------------Shared Styles Ends Here-------------------------*/
 
+/* ----------Navbar Styles Added---------- */
 nav {
   border: 1px solid red;
   max-width: 1440px;
@@ -63,4 +64,64 @@ nav {
   font-size: 1rem;
   font-weight: 600;
   line-height: 24px;
+}
+
+/* ----------Banner Section Styles Added---------- */
+.banner-section {
+  border: 1px solid aqua;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 69px;
+}
+.banner-container {
+  border: 1px solid red;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ----- Banner Content Styles Added ----- */
+.banner-content h1 {
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 70px;
+  margin-bottom: 16px;
+  color: rgb(58, 58, 58);
+}
+.banner-content p {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 26px;
+  color: rgb(58, 58, 58);
+}
+
+/* -----Banner Button Styles Added----- */
+.banner-btn {
+  text-decoration: none;
+  border-radius: 41px;
+  background-color: rgb(224, 44, 109);
+  color: rgb(255, 255, 255);
+  padding: 10px 24px 10px 24px;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 24px;
+}
+.fa-arrow-right {
+  margin-left: 12px;
+}
+
+/* -----Banner Image Styles Added----- */
+.banner-image {
+  background-image: url(../assets/images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  max-width: 475px;
+  height: 475px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.banner-image img {
+  max-width: 440px;
 }
