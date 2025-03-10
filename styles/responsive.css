@@ -2,7 +2,7 @@
 
 /* --------------------Mobile/Small Device Responsive Added-------------------- */
 @media only screen and (max-width: 576px) {
-  /* -----Navbar Mobile Responsive Added----- */
+  /* -----Navbar Mobile/Small Device Responsive Added----- */
   nav {
     margin-top: 25px;
     margin-bottom: 25px;
@@ -19,7 +19,7 @@
     display: none;
   }
 
-  /* ----- Banner Section Mobile Responsive Added ----- */
+  /* -----Banner Section Mobile/Small Device Responsive Added----- */
   .banner-container {
     flex-direction: column-reverse;
   }
@@ -52,11 +52,23 @@
     line-height: 21px;
     margin-bottom: 20px;
   }
+
+  /* -----E-Commerce Logo Section Mobile/Small Device Responsive Added----- */
+  .e-commerce {
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    border-top: none;
+    border-bottom: none;
+  }
+
+  .logo {
+    margin: 10px 30px;
+  }
 }
 
 /* --------------------Tablet/Medium Device Responsive Added-------------------- */
 @media only screen and (min-width: 577px) and (max-width: 992px) {
-  /* -----Navbar Tablet/Medium Responsive Added----- */
+  /* -----Navbar Tablet/Medium Device Responsive Added----- */
   .nav-container {
     flex-direction: column;
     gap: 50px;
@@ -67,8 +79,8 @@
   .nav-links {
     gap: 60px;
   }
-  
-  /* ----- Banner Section Tablet/Medium Responsive Added ----- */
+
+  /* -----Banner Section Tablet/Medium Device Responsive Added----- */
   .banner-content h1 {
     font-size: 3rem;
   }
@@ -79,5 +91,15 @@
   }
   .banner-image img {
     max-width: 340px;
+  }
+
+  /* -----E-Commerce Logo Section Tablet/Medium Device Responsive Added----- */
+  .e-commerce {
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+
+  .logo {
+    margin: 20px;
   }
 }
