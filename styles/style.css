@@ -141,3 +141,87 @@ nav {
 .logo {
   margin: 36px;
 }
+
+/* ---------- Popular Collection Section Styles Added---------- */
+.popular-collection {
+  border: 1px solid red;
+  max-width: 1047px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.popular-collection h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 70px;
+  color: rgb(58, 58, 58);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* -----Collection Card Styles Added----- */
+.collection-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* -----Card styles Added----- */
+.card {
+  padding: 15px;
+  border-radius: 5px;
+  max-width: 329px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* -----Card Image Styles Added----- */
+.card-image img {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+/* -----Card Content Styles Added----- */
+.card-content h4 {
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 40px;
+  color: rgb(24, 25, 31);
+  margin-bottom: 6px;
+}
+.card-content h5 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 5px;
+  font-family: "Inter", sans-serif;
+}
+.card-content p {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: rgb(120, 120, 133);
+  font-family: "Inter", sans-serif;
+}
+.fa-star,
+.fa-star-half-stroke {
+  color: rgb(251, 130, 0);
+}
+.rating {
+  margin-left: 11px;
+}
+
+/* -----See More Button Styles Added----- */
+.see-more-btn {
+  text-decoration: none;
+  color: rgba(224, 44, 109, 0.87);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 24px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 50px;
+}
+.fa-arrow-right {
+  margin-left: 8px;
+}

@@ -64,6 +64,35 @@
   .logo {
     margin: 10px 30px;
   }
+
+  /* ----------Popular Collection Section Mobile/Small Device Responsive Added---------- */
+  .collection-cards {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 15px;
+  }
+  .card {
+    width: 100%;
+  }
+  .card-content h4 {
+    font-weight: 700;
+  }
+  .card-content h5 {
+    font-weight: 700;
+  }
+  .card-content p {
+    font-weight: 400;
+    margin-bottom: 25px;
+  }
+  .details {
+    margin-top: 10px;
+  }
+
+  .see-more-btn {
+    width: 359px;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
 }
 
 /* --------------------Tablet/Medium Device Responsive Added-------------------- */
@@ -81,6 +110,9 @@
   }
 
   /* -----Banner Section Tablet/Medium Device Responsive Added----- */
+  .banner-container {
+    justify-content: space-around;
+  }
   .banner-content h1 {
     font-size: 3rem;
   }
@@ -101,5 +133,32 @@
 
   .logo {
     margin: 20px;
+  }
+
+  /* ----------Popular Collection Section Tablet/Medium Device Responsive Added---------- */
+  .collection-cards {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 15px;
+  }
+  .card {
+    width: 100%;
+  }
+  .card-content h4 {
+    font-weight: 700;
+  }
+  .card-content h5 {
+    font-weight: 700;
+  }
+  .card-content p {
+    font-weight: 400;
+    margin-bottom: 25px;
+  }
+  .details {
+    margin-top: 10px;
+  }
+  .see-more-btn {
+    margin-top: 25px;
+    margin-right: 25px;
   }
 }
