@@ -10,7 +10,6 @@
 }
 
 body {
-  border: 1px solid blue;
   font-family: "Poppins", sans-serif;
 }
 
@@ -25,14 +24,12 @@ body {
 
 /* ----------Navbar Styles Added---------- */
 nav {
-  border: 1px solid red;
   max-width: 1440px;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 .nav-container {
-  border: 1px solid green;
   max-width: 1200px;
   justify-content: space-between;
   align-items: center;
@@ -68,13 +65,11 @@ nav {
 
 /* ----------Banner Section Styles Added---------- */
 .banner-section {
-  border: 1px solid aqua;
   max-width: 1440px;
   margin: 0 auto;
   margin-bottom: 69px;
 }
 .banner-container {
-  border: 1px solid red;
   max-width: 1200px;
   margin: 0 auto;
   align-items: center;
@@ -128,7 +123,6 @@ nav {
 
 /* -----E-Commerce Logo Styles Added----- */
 .e-commerce {
-  border: 1px solid green;
   max-width: 1110px;
   margin: 0 auto;
   display: flex;
@@ -144,7 +138,6 @@ nav {
 
 /* ---------- Popular Collection Section Styles Added---------- */
 .popular-collection {
-  border: 1px solid red;
   max-width: 1047px;
   margin: 0 auto;
   margin-bottom: 100px;
@@ -225,7 +218,6 @@ nav {
 
 /* ----------Feature Product Section Styles Added---------- */
 .feature-product-section {
-  border: 1px solid red;
   max-width: 1110px;
   margin: 0 auto;
   margin-bottom: 100px;
