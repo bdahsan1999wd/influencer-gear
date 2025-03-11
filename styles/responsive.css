@@ -66,6 +66,9 @@
   }
 
   /* ----------Popular Collection Section Mobile/Small Device Responsive Added---------- */
+  .popular-collection {
+    margin-bottom: 50px;
+  }
   .collection-cards {
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
@@ -92,6 +95,20 @@
     width: 359px;
     margin: 0 auto;
     margin-top: 25px;
+  }
+
+  /* ----------Feature Product Section Mobile/Small Device Responsive Added---------- */
+  .feature-product-section {
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .feature-content {
+    align-items: center;
+  }
+  .feature-image {
+    margin-top: 30px;
   }
 }
 
@@ -136,6 +153,9 @@
   }
 
   /* ----------Popular Collection Section Tablet/Medium Device Responsive Added---------- */
+  .popular-collection {
+    margin-bottom: 50px;
+  }
   .collection-cards {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
@@ -160,5 +180,13 @@
   .see-more-btn {
     margin-top: 25px;
     margin-right: 25px;
+  }
+
+  /* ----------Feature Product Section Tablet/Medium Device Responsive Added---------- */
+  .feature-product-section {
+    margin-bottom: 50px;
+  }
+  .feature-image {
+    margin-right: 95px;
   }
 }

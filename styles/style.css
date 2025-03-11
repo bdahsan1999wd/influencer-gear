@@ -222,6 +222,50 @@ nav {
   align-items: center;
   margin-top: 50px;
 }
-.fa-arrow-right {
-  margin-left: 8px;
+
+/* ----------Feature Product Section Styles Added---------- */
+.feature-product-section {
+  border: 1px solid red;
+  max-width: 1110px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  justify-content: space-between;
+}
+
+/* -----Feature Image Styles Added----- */
+.feature-image img {
+  width: 100%;
+}
+
+/* -----Feature Content Styles Added----- */
+.feature-content {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+.feature-content h2 {
+  font-size: 2.375rem;
+  font-weight: 700;
+  line-height: 60px;
+  color: rgb(10, 8, 38);
+  margin-bottom: 16px;
+}
+.feature-content p {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 28px;
+  color: rgb(108, 108, 108);
+  margin-bottom: 26px;
+}
+
+/* -----Join Now Button Styles Added----- */
+.join-now-btn {
+  text-decoration: none;
+  background-color: rgb(224, 44, 109);
+  color: rgb(255, 255, 255);
+  padding: 10px 24px 10px 24px;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 24px;
 }
