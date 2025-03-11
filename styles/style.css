@@ -269,3 +269,38 @@ nav {
   font-weight: 700;
   line-height: 24px;
 }
+
+/* ----------Footer Section Styles Added---------- */
+#footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: rgb(10, 8, 38);
+  text-align: center;
+  padding: 1px;
+}
+.footer-section {
+  margin: 50px 0px;
+}
+.footer-text h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 36px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 5px;
+}
+.footer-text p {
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 24px;
+  color: rgb(217, 219, 225);
+  margin-bottom: 15px;
+  font-family: "Manrope", sans-serif;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.social-media a {
+  color: rgb(255, 255, 255);
+}
