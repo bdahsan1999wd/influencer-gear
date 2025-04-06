@@ -326,7 +326,7 @@
             <!----- Footer Text Added ----->
             <div class="footer-text">
                 <h3>Influencer products</h3>
-                <p>&copy; 2025 - influencer products <br> All Rights Reserved by Ahsan Habib.</p>
+                <p>&copy; <span id="year"></span> - influencer products <br> All Rights Reserved by Ahsan Habib.</p>
             </div>
 
             <!----- Social Media Logo Added ----->
@@ -339,6 +339,14 @@
 
         </div>
     </footer>
+
+    <!---------- JavaScript Added to Dynamic Year Update ---------->
+    <script>
+        // Get the current year and update the footer
+        const yearSpan = document.getElementById("year");
+        const currentYear = new Date().getFullYear();
+        yearSpan.textContent = currentYear;
+    </script>
 
 </body>
 
