@@ -326,7 +326,8 @@
             <!----- Footer Text Added ----->
             <div class="footer-text">
                 <h3>Influencer products</h3>
-                <p>&copy; <span id="year"></span> - influencer products <br> All Rights Reserved by Ahsan Habib.</p>
+                <p>&copy; <span id="year-range"></span> - influencer products <br> All Rights Reserved by Ahsan Habib.
+                </p>
             </div>
 
             <!----- Social Media Logo Added ----->
@@ -340,12 +341,32 @@
         </div>
     </footer>
 
-    <!---------- JavaScript Added to Dynamic Year Update ---------->
+    <!----- JavaScript Added (Create to Current) Dynamic Year Update ----->
     <script>
-        // Get the current year and update the footer
-        const yearSpan = document.getElementById("year");
+
+        // -----Website launch year-----
+        const createdYear = 2025;
+
+        // -----Get the current year from the system-----
         const currentYear = new Date().getFullYear();
-        yearSpan.textContent = currentYear;
+
+        // -----Initialize the year range string-----
+        let yearRange = "";
+
+        // -----If the website was created this year, show only that year Otherwise, show a range like "2025–2026"-----
+        if (createdYear === currentYear) {
+            yearRange = `${createdYear}`;
+        }
+        else {
+            yearRange = `${createdYear}-${currentYear}`;
+        }
+
+        // -----Update the year range into the footer span with ID "year-range"-----
+        document.getElementById("year-range").textContent = yearRange;
+
+        // -----Update the second span for mobile view-----
+        document.getElementById("mobile-year-range").textContent = yearRange;
+
     </script>
 
 </body>
